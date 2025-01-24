@@ -132,7 +132,42 @@ img {
 
     .container{
         width: 700px;
-       
+             
     }
     
+ }
+
+ @media screen and (max-width:480px) {
+
+   .container{
+    width: 460px;
+    padding: 0;
+   }
+
+    .row{
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .col{
+        margin: 2rem 0;
+    } 
+
+    .lessons .col {
+        width:80%;
+        
+    }
+
+    .steps .col {
+        width:80%;
+    }
+
+    .why-us .col-left {
+        width:80%;
+    }
+    
+    .why-us .col-right {
+        width:80%;
+    }
+
  }
